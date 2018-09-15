@@ -1,0 +1,167 @@
+
+PERSON_NAME                                                                     
+------------------------------                                                  
+Abigail Black                                                                   
+Amanda Mackenzie                                                                
+Bella Clark                                                                     
+Diane Fisher                                                                    
+Hannah Black                                                                    
+Hilary Mason                                                                    
+Jake Underwood                                                                  
+Jane Ross                                                                       
+Penelope Nolan                                                                  
+Virgini Wright                                                                  
+
+10 rows selected.
+
+
+PERSON_IDNUMBER                PERSON_NAME                                      
+------------------------------ ------------------------------                   
+101                            Abigail Black                                    
+106                            Bernadette Morgan                                
+107                            Lily Springer                                    
+117                            Joseph Young                                     
+
+
+PERSON_NAME                                                                     
+------------------------------                                                  
+Bella Clark                                                                     
+Diane Fisher                                                                    
+Hannah Black                                                                    
+Hilary Mason                                                                    
+Jane Ross                                                                       
+Penelope Nolan                                                                  
+
+6 rows selected.
+
+
+PERSON_NAME                                                                     
+------------------------------                                                  
+Abigail Black                                                                   
+Adrian Butler                                                                   
+Bella Clark                                                                     
+Bernadette Morgan                                                               
+Dave Mitty                                                                      
+Dorothy Miller                                                                  
+Joseph Young                                                                    
+Lily Springer                                                                   
+Steven Lewis                                                                    
+Vanessa Gill                                                                    
+Zoe Smith                                                                       
+
+11 rows selected.
+
+
+PERSON_IDNUMBER                NUM_OF_COURSES                                   
+------------------------------ --------------                                   
+102                                         2                                   
+103                                         1                                   
+105                                         2                                   
+109                                         1                                   
+111                                         3                                   
+112                                         1                                   
+115                                         1                                   
+116                                         1                                   
+120                                         1                                   
+
+9 rows selected.
+
+
+PERSON_NAME                    COURSE_NAME                                      
+------------------------------ ------------------------------                   
+NUM_OF_STUDENTS                                                                 
+------------------------------                                                  
+Abigail Black                  Computer Vision                                  
+40                                                                              
+                                                                                
+Abigail Black                  Distributed Systems                              
+40                                                                              
+                                                                                
+Abigail Black                  Operating Systems                                
+30                                                                              
+                                                                                
+
+PERSON_NAME                    COURSE_NAME                                      
+------------------------------ ------------------------------                   
+NUM_OF_STUDENTS                                                                 
+------------------------------                                                  
+Amanda Mackenzie               Machine Learning                                 
+60                                                                              
+                                                                                
+Diane Fisher                   Database Systems                                 
+30                                                                              
+                                                                                
+Diane Fisher                   Machine Learning                                 
+20                                                                              
+                                                                                
+
+PERSON_NAME                    COURSE_NAME                                      
+------------------------------ ------------------------------                   
+NUM_OF_STUDENTS                                                                 
+------------------------------                                                  
+Hannah Black                   Distributed Systems                              
+40                                                                              
+                                                                                
+Hilary Mason                   Machine Learning                                 
+60                                                                              
+                                                                                
+Jake Underwood                 Database Systems                                 
+30                                                                              
+                                                                                
+
+PERSON_NAME                    COURSE_NAME                                      
+------------------------------ ------------------------------                   
+NUM_OF_STUDENTS                                                                 
+------------------------------                                                  
+Jane Ross                      Computer Vision                                  
+40                                                                              
+                                                                                
+Jane Ross                      Machine Learning                                 
+20                                                                              
+                                                                                
+Penelope Nolan                 Database Systems                                 
+30                                                                              
+                                                                                
+
+PERSON_NAME                    COURSE_NAME                                      
+------------------------------ ------------------------------                   
+NUM_OF_STUDENTS                                                                 
+------------------------------                                                  
+Virgini Wright                 Algorithms                                       
+50                                                                              
+                                                                                
+
+13 rows selected.
+
+
+PERSON_IDNUMBER                PRIZE_ID                                         
+------------------------------ ------------------------------                   
+106                            1006                                             
+107                            1003                                             
+107                            1005                                             
+112                            1002                                             
+112                            1003                                             
+112                            1004                                             
+
+6 rows selected.
+
+
+COURSE_NAME                    REQUIRED_LEVEL                                   
+------------------------------ ------------------------------                   
+Algorithms                     2                                                
+Computer Vision                3                                                
+Database Systems               3                                                
+Distributed Systems            3                                                
+Machine Learning               1                                                
+Operating Systems              2                                                
+
+6 rows selected.
+
+
+PERSON_NAME                                                                     
+------------------------------                                                  
+Adrian Butler                                                                   
+Hannah Black                                                                    
+Joseph Young                                                                    
+Steven Lewis                                                                    
+

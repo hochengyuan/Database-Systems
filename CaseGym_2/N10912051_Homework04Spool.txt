@@ -1,0 +1,306 @@
+
+IDNUMBER                       NAME                                             
+------------------------------ ------------------------------                   
+PHONE                                                                           
+------------------------------                                                  
+101                            Abigail Black                                    
+8577633767                                                                      
+                                                                                
+102                            Diane Fisher                                     
+4965213467                                                                      
+                                                                                
+103                            Penelope Nolan                                   
+                                                                                
+                                                                                
+
+IDNUMBER                       NAME                                             
+------------------------------ ------------------------------                   
+PHONE                                                                           
+------------------------------                                                  
+104                            Steven Lewis                                     
+7513675727                                                                      
+                                                                                
+105                            Jane Ross                                        
+                                                                                
+                                                                                
+106                            Bernadette Morgan                                
+61118264563                                                                     
+                                                                                
+
+IDNUMBER                       NAME                                             
+------------------------------ ------------------------------                   
+PHONE                                                                           
+------------------------------                                                  
+107                            Lily Springer                                    
+                                                                                
+                                                                                
+108                            Zoe Smith                                        
+3824469628                                                                      
+                                                                                
+109                            Amanda Mackenzie                                 
+                                                                                
+                                                                                
+
+IDNUMBER                       NAME                                             
+------------------------------ ------------------------------                   
+PHONE                                                                           
+------------------------------                                                  
+110                            Adrian Butler                                    
+9976391944                                                                      
+                                                                                
+111                            Abigail Black                                    
+                                                                                
+                                                                                
+112                            Hannah Black                                     
+8948396935                                                                      
+                                                                                
+
+IDNUMBER                       NAME                                             
+------------------------------ ------------------------------                   
+PHONE                                                                           
+------------------------------                                                  
+113                            Vanessa Gill                                     
+5257205498                                                                      
+                                                                                
+114                            Bella Clark                                      
+3841384625                                                                      
+                                                                                
+115                            Jake Underwood                                   
+6128465212                                                                      
+                                                                                
+
+IDNUMBER                       NAME                                             
+------------------------------ ------------------------------                   
+PHONE                                                                           
+------------------------------                                                  
+116                            Virgini Wright                                   
+                                                                                
+                                                                                
+117                            Joseph Young                                     
+1794543929                                                                      
+                                                                                
+118                            Dorothy Miller                                   
+1795962125                                                                      
+                                                                                
+
+IDNUMBER                       NAME                                             
+------------------------------ ------------------------------                   
+PHONE                                                                           
+------------------------------                                                  
+119                            Dave Mitty                                       
+8573399979                                                                      
+                                                                                
+120                            Hilary Mason                                     
+                                                                                
+                                                                                
+121                            David Bowie                                      
+                                                                                
+                                                                                
+
+21 rows selected.
+
+
+PRIZEID                        NAME                                             
+------------------------------ ------------------------------                   
+IDNUMBER                                                                        
+------------------------------                                                  
+1001                           Data Analytics                                   
+102                                                                             
+                                                                                
+1001                           Data Search                                      
+114                                                                             
+                                                                                
+1001                           System Design                                    
+105                                                                             
+                                                                                
+
+PRIZEID                        NAME                                             
+------------------------------ ------------------------------                   
+IDNUMBER                                                                        
+------------------------------                                                  
+1002                           Data Prediction                                  
+112                                                                             
+                                                                                
+1002                           Data Search                                      
+114                                                                             
+                                                                                
+1003                           Data Prediction                                  
+112                                                                             
+                                                                                
+
+PRIZEID                        NAME                                             
+------------------------------ ------------------------------                   
+IDNUMBER                                                                        
+------------------------------                                                  
+1003                           System Design                                    
+105                                                                             
+                                                                                
+1003                           System Optimization                              
+107                                                                             
+                                                                                
+1004                           Data Prediction                                  
+112                                                                             
+                                                                                
+
+PRIZEID                        NAME                                             
+------------------------------ ------------------------------                   
+IDNUMBER                                                                        
+------------------------------                                                  
+1004                           Software Development                             
+117                                                                             
+                                                                                
+1004                           System Design                                    
+105                                                                             
+                                                                                
+1006                           Software Development                             
+117                                                                             
+                                                                                
+
+12 rows selected.
+
+
+PROJECT_NAME                   PERSON_ID                                        
+------------------------------ ------------------------------                   
+Image Recognition              106                                              
+Image Reconstruction           119                                              
+
+
+PERSON_NAME                                                                     
+------------------------------                                                  
+Hannah Black                                                                    
+Jane Ross                                                                       
+
+
+PERSON_ID                                                                       
+------------------------------                                                  
+102                                                                             
+112                                                                             
+117                                                                             
+
+
+COACH_ID                       SUPERVISOR_ID                                    
+------------------------------ ------------------------------                   
+103                            111                                              
+103                            112                                              
+103                            116                                              
+103                            118                                              
+105                            107                                              
+109                            111                                              
+109                            112                                              
+109                            116                                              
+109                            118                                              
+111                            112                                              
+111                            116                                              
+
+COACH_ID                       SUPERVISOR_ID                                    
+------------------------------ ------------------------------                   
+111                            118                                              
+112                            116                                              
+112                            118                                              
+115                            101                                              
+116                            118                                              
+
+16 rows selected.
+
+
+View created.
+
+
+PROJECT_NAME                   MEMBERSHIP_TYPE                                  
+------------------------------ ------------------------------                   
+Data Analytics                 planB                                            
+Data Prediction                planA                                            
+Data Search                    planB                                            
+Image Recognition              planA                                            
+Image Reconstruction           planA                                            
+Software Development           planB                                            
+System Design                  planC                                            
+System Optimization            planA                                            
+
+8 rows selected.
+
+SET Membership_Type = 'planB'
+    *
+ERROR at line 2:
+ORA-01779: cannot modify a column which maps to a non key-preserved table 
+
+
+
+Trigger created.
+
+
+1 row updated.
+
+
+PROJECT_NAME                   MEMBERSHIP_TYPE                                  
+------------------------------ ------------------------------                   
+Data Analytics                 planB                                            
+Data Prediction                planB                                            
+Data Search                    planB                                            
+Image Recognition              planA                                            
+Image Reconstruction           planA                                            
+Software Development           planB                                            
+System Design                  planC                                            
+System Optimization            planA                                            
+
+8 rows selected.
+
+
+IDNUMBER                       STARTDATE                                        
+------------------------------ ------------------------------                   
+ENDDATE                        MEMBERSHIP                                       
+------------------------------ ------------------------------                   
+101                            01-JAN-17                                        
+03-MAY-17                      planA                                            
+                                                                                
+102                            06-FEB-17                                        
+12-AUG-17                      planB                                            
+                                                                                
+104                            05-JAN-16                                        
+05-JAN-17                      planC                                            
+                                                                                
+
+IDNUMBER                       STARTDATE                                        
+------------------------------ ------------------------------                   
+ENDDATE                        MEMBERSHIP                                       
+------------------------------ ------------------------------                   
+105                            03-APR-17                                        
+03-MAY-17                      planC                                            
+                                                                                
+106                            01-MAR-17                                        
+05-JUL-17                      planA                                            
+                                                                                
+107                            01-DEC-16                                        
+01-JAN-17                      planA                                            
+                                                                                
+
+IDNUMBER                       STARTDATE                                        
+------------------------------ ------------------------------                   
+ENDDATE                        MEMBERSHIP                                       
+------------------------------ ------------------------------                   
+110                            09-JAN-17                                        
+09-MAR-17                      planB                                            
+                                                                                
+111                            01-NOV-16                                        
+01-MAR-17                      planC                                            
+                                                                                
+112                            08-DEC-16                                        
+01-DEC-17                      planB                                            
+                                                                                
+
+IDNUMBER                       STARTDATE                                        
+------------------------------ ------------------------------                   
+ENDDATE                        MEMBERSHIP                                       
+------------------------------ ------------------------------                   
+114                            01-APR-17                                        
+27-APR-17                      planB                                            
+                                                                                
+117                            13-JAN-16                                        
+13-JAN-17                      planB                                            
+                                                                                
+119                            05-FEB-17                                        
+05-APR-17                      planA                                            
+                                                                                
+
+12 rows selected.
+
